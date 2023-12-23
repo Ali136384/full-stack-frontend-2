@@ -1,0 +1,159 @@
+.gig {
+  width: 100%;
+  .container {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    padding: 40px 120px;
+    gap: 70px;
+  }
+
+  .right {
+    border-radius: 10px 0px 10px 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 10px;
+    height: max-content;
+    position: sticky;
+    top: 100px;
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+
+      .title {
+        font-weight: bolder;
+      }
+      .price {
+        font-size: 18px;
+      }
+    }
+    .text {
+      p {
+        opacity: 0.8;
+      }
+    }
+
+    .duration {
+      display: flex;
+      justify-content: space-between;
+      .duration-left,
+      .duration-right {
+        font-size: 13px;
+        font-weight: bolder;
+      }
+    }
+
+    .features {
+      div {
+        svg {
+          margin-right: 5px;
+          color: green;
+        }
+
+        span {
+          font-size: 14px;
+          opacity: 0.7;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      background-color: rgb(24, 202, 24);
+      border: none;
+      color: white;
+      padding: 8px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.left {
+  p {
+  }
+  .profile-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .profile-pic {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+    }
+    p {
+      font-weight: bolder;
+      margin-top: 7px;
+    }
+  }
+}
+
+.slider-img {
+  width: 100% !important;
+  height: 360px;
+}
+
+.carousel-arrow::before {
+  background-color: white;
+  padding: 2px;
+  border-radius: 40%;
+}
+
+.user {
+  p {
+    font-weight: bold;
+  }
+
+  .seller-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .seller-name {
+        font-size: 13px;
+        font-weight: bold;
+      }
+      button {
+        border: none;
+        background-color: white;
+        border: 1px solid #eee;
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+}
+
+.user-informations {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+}
+
+.inf {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  p {
+    margin: 0;
+  }
+}

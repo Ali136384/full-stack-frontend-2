@@ -1,0 +1,57 @@
+.footer {
+  padding: 80px 100px 30px;
+  text-align: center;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 10px;
+
+    .col {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        font-weight: bolder;
+      }
+
+      span {
+        color: rgb(145, 145, 145);
+      }
+    }
+  }
+
+  hr {
+    margin-top: 30px;
+    opacity: 0.3;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+
+    .name-copy {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      p {
+        opacity: 0.7;
+      }
+    }
+
+    .icons {
+      display: flex;
+      gap: 40px;
+
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+}

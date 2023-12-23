@@ -1,0 +1,47 @@
+.features {
+  margin-top: 20px;
+  .container {
+    background-color: rgb(201, 236, 247);
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      width: 35%;
+      span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      i {
+        font-size: 23px;
+        font-family: bolder;
+      }
+      .icon-text {
+        .to {
+          display: flex;
+          align-items: center;
+        }
+        svg {
+          margin-right: 5px;
+          font-size: 18px;
+          opacity: 0.4;
+        }
+        span {
+          font-size: 18px;
+        }
+        .tow {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    .right {
+      width: 40%;
+      height: 100%;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}

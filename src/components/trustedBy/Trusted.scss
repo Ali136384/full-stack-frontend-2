@@ -1,0 +1,27 @@
+.tursted {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  padding: 10px;
+  height: 60px;
+  .container {
+    display: flex;
+    align-items: center;
+
+    p {
+      font-weight: bold;
+      opacity: 0.3;
+      margin-right: 20px;
+    }
+
+    .brands {
+      display: flex;
+      gap: 10px;
+
+      span {
+        font-weight: bold;
+        opacity: 0.3;
+      }
+    }
+  }
+}
